@@ -1,0 +1,51 @@
+body {
+    background-color: #2c3e50;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    width: 500px;
+    padding: 1rem;
+    background-color: #34495e;
+    border-radius: 2px;
+    box-shadow: 1px 2px 8px #0000006d;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    padding: 8px 0;
+    background-color: #00000037;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gussable_container {
+    text-align: center;
+}
+
+h2 {
+    margin: 0;
+}
+
+.input_box {
+    width: 70%;
+    margin: 10px auto 0 auto;
+}
+
+.input_box input {
+    box-sizing: border-box;
+    padding: 8px 16px;
+    width: 100%;
+}
+
+.game_over {
+    display: none;
+}
+
